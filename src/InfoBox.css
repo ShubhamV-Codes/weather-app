@@ -1,0 +1,62 @@
+.InfoBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 32px;
+}
+
+.cardContainer {
+  box-shadow: 0 6px 24px 0 rgba(34, 34, 53, 0.10), 0 1.5px 6px 0 rgba(34, 34, 53, 0.07);
+  border-radius: 18px;
+  transition: box-shadow 0.2s;
+}
+
+.cardContainer:hover {
+  box-shadow: 0 10px 40px 0 rgba(34, 34, 53, 0.16), 0 2.5px 8px 0 rgba(34, 34, 53, 0.09);
+}
+
+.MuiCard-root {
+  border-radius: 18px !important;
+}
+
+.MuiCardContent-root {
+  padding-bottom: 22px !important;
+}
+
+.MuiTypography-h5 {
+  display: flex;
+  align-items: center;
+  color: #1976d2;
+  font-weight: 700;
+}
+
+.MuiTypography-body2 span, .MuiTypography-body2 div {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 1rem;
+  color: #222;
+  margin-bottom: 2px;
+}
+
+.MuiTypography-body2 div {
+  margin: 3px 0 0 0;
+}
+
+.MuiCardMedia-root {
+  object-fit: cover;
+  border-radius: 18px 18px 0 0;
+}
+
+@media (max-width: 400px) {
+  .cardContainer, .MuiCard-root {
+    max-width: 98vw !important;
+  }
+  .MuiCardMedia-root {
+    height: 95px !important;
+  }
+}
+.cityName {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
