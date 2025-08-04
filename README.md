@@ -1,12 +1,54 @@
-# React + Vite
+# 🌤️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React app to search for weather by city using the OpenWeatherMap API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔧 Features
 
-## Expanding the ESLint configuration
+- ✅ Search weather by city name
+- 🌡️ Shows temperature, min/max temp, humidity, and condition
+- 🎨 Clean, card-style layout
+- ⚙️ Modular components: `SearchBox`, `InfoBox`, and `WeatherApp`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- React (via vite)
+- Matrial UI (MUI)
+- CSS for styling
+- OpenWeatherMap API
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone this repository
+
+```bash
+git clone https://github.com/ShubhamV-Codes/weather-app.git
+cd weather-app
+```
+## 📁 Folder Structure
+- **weather-app/**
+  - dist/
+  - node_modules/
+  - public/
+    - weather_icon.svg
+  - src/
+    - assets/
+    - App.jsx
+    - index.css
+    - InfoBox.css
+    - InfoBox.jsx
+    - main.jsx
+    - SearchBox.css
+    - SearchBox.jsx
+    - WeatherApp.jsx
+  - .gitignore
+  - eslint.config.js
+  - index.html
+  - package-lock.json
+  - package.json
+
